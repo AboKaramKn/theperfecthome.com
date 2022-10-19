@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.navv{
+opacity:0.9;
+width:100%;
+height:100vh;
+background-image: url("pic/living-room.jpg");
+background-size:cover;
+background-position: center;
+}
+.navbar{
+   text-align:left;
+}
+.navbar ul li{
+display: inline-block;
+margin-top:10px;
+padding:45px;
+margin-left:5px;
+}
+.navbar ul li a{
+    border: 0px white solid;
+    background-color:white;
+    color:burlywood;
+    border-radius:3px;
+    padding:12px;
+    transition:0.5s;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+  opacity:0.7;
+}
+.center{
+    text-align: center;
+    margin-top:50px;
+}
+.center h1{
+    color:white;
+    font-size:70px;
+    letter-spacing:3px;
+    font-weight: bold;
+    opacity:0.5;
+}
+.center form{
+    padding-top:50px;
+}
+.center form input{
+  margin-top:10px;
+  padding:25px;
+  border-radius:7px;
+  background-color:burlywood;
+  border:none;
+  opacity:0.7;
+  transition: 0.5s;
+}
+.center form input:hover{
+border: none;
+background-color:white;
+}
+.sub{
+    background-color:burlywood;
+    color:white;
+    padding:20px;
+    border: none;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition:0.5s;
+    border-radius:3px;
+}
+.sub:hover{
+    opacity:0.9;
+   
+}
+p{
+    color:white;
+    font-size:15px;
+    letter-spacing:2px;
+    font-weight: bold;
+    opacity:0.9;
+    line-height:25px;
+    margin-top:50px;
+}
+.end-page{
+   text-align:left;
+   color:white;
+   font-size:12px;
+   opacity:0.9;
+   margin-left:10px;
+}
+.data-bott{
+    background-color:rgba(148, 49, 49, 0.932);
+    color:white;
+    padding:20px;
+    border: none;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition:0.5s;
+    border-radius:3px;
+}
+.data-bott:hover{
+    opacity:0.9;
+}
